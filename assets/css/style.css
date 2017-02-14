@@ -1,0 +1,113 @@
+html {
+	position: relative;
+	min-height: 100%;
+	max-width: 100%;
+}
+
+body {
+ background-color: ;
+ margin: 0 0 100px;
+ background-image: url('../images/mooning.png');
+ min-height: 100%;
+ padding-bottom: 70px;
+}
+
+header {
+	width: 100%;
+	height: 92px;
+	border-style: groove;
+	border-color: #cccccc;
+	background-color: #ffffff;
+}
+
+#header {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 52px;
+	width: 18%;
+	right: 30%;
+	font-size: 35px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav {
+	float: right;
+	margin: 0 auto;
+	position: relative;
+	width: 18%;
+	height: 30%;
+	right: 15%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	padding: 10px 30px 8px 30px;
+	line-height: 200%;
+	
+}
+
+h1 {
+	font-style: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	color: #4aaaa5;
+
+}
+
+.main {
+	height: 80%;
+	width: 960px;
+	margin: 20px 50px 50px 143px;
+
+}
+
+.main img {
+	width: 185px;
+	height: 150px;
+	padding-left: 30px;
+	padding-right: 15px;
+	float: left;
+}
+
+.main1 {
+	width: 650px;
+	height: 530px;
+	background-color: #ffffff;
+	float: left;
+	margin: 5px 0px;
+	border: 3px groove #dddddd
+}
+
+.main2 {
+	width: 270px;
+	height: 200px;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	text-align: center;
+	font-style: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	float: right;
+	clear: right;
+	border: 3px groove #dddddd
+
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 70px;
+	width: 100%;
+	border-style: groove;
+	border-top-color: #4aaaa5;
+	background-color: #777777;
+	color: #dddddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+	text-align: center;
+}
