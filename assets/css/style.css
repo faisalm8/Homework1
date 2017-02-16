@@ -15,58 +15,81 @@ header {
 	width: 100%;
 	height: 92px;
 	border-style: groove;
-	border-color: #cccccc;
-	background-color: #ffffff;
+	border-color: #ccc;
+	background-color: #fff;
 }
 
 #header {
 	background-color: #4aaaa5;
-	color: #ffffff;
+	color: #fff;
 	height: 52px;
 	width: 18%;
 	right: 30%;
-	font-size: 35px;
+	font-size: 33px;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
 }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    float: right;
+    position: absolute;
+    left: 825px;
+    top: 24px;
+}
 
-.nav {
-	float: right;
-	margin: 0 auto;
-	position: relative;
-	width: 18%;
-	height: 30%;
-	right: 15%;
-	text-align: center;
-	text-decoration: none;
-	font-size: 25px;
+ul.topnav li {
+	float: left;
+	border-right: 1px solid #777;
+}
+
+ul li:last-of-type { 
+	border-right: none;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+ul.topnav li a:hover {
+	background-color: #555;
+	border-radius: 2px;
 }
 
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 16px;
-	color: #777777;
+	color: #777;
 	padding: 10px 30px 8px 30px;
 	line-height: 200%;
 	
 }
 
-h1 {
-	font-style: 'Georgia', Times, Times New Roman, serif;
+h1, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 20px;
 	color: #4aaaa5;
 
 }
 
 .main {
-	height: 80%;
+	height: 530px;
 	width: 960px;
-	margin: 20px 50px 50px 143px;
+	margin: 30px 50px 50px 143px;
 
 }
 
-#contentimg {
+#profileimg {
 	width: 185px;
 	height: 150px;
 	padding-left: 30px;
@@ -79,10 +102,10 @@ h1 {
 	height: 530px;
 	background-color: #ffffff;
 	float: left;
-	margin: 5px 0px;
-	border: 3px groove #dddddd
-	font-size: 0;
+	margin: 0px 0px 0px 14px;
+	border: 3px groove #dddddd;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: block
 }
 
 .portfolio {
@@ -90,7 +113,7 @@ h1 {
 	height: 780px;
 	background-color: #ffffff;
 	float: left;
-	margin: 5px 0px;
+	margin: 0px 0px 0px 14px;
 	border: 3px groove #dddddd;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -115,6 +138,30 @@ h1 {
 
 .inside {
 	position: absolute;
+	background-color: #4aaaa5;
+	text-align: center;
+	bottom: ;
+	left: ;
+}
+
+.form {
+	padding-left: 30px;
+	line-height: 32px;
+}
+
+
+#btn {
+	border: solid 10px #4aaaa5;
+	border-radius: 20px 20px 20px 20px ;
+}
+
+#btn:hover {
+	background-color: transparent;
+	border: solid 10px #dddddd;
+}
+
+#btn:active {
+	border: solid 9px #dddddd;
 }
 
 li {
@@ -132,8 +179,61 @@ li {
 	float: right;
 	clear: right;
 	border: 3px groove #dddddd
-
 }
+
+.main2 a {
+	text-decoration: none;
+	color: #444444;
+	padding: 0px 7px;
+	display: inline-block;
+}
+
+.fa {
+	padding:10px 14px;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+    color: #fff;
+    padding: 5px 6px;
+}
+
+.fa-instagram:hover {
+	background-color: #986d56;
+	color: #fff;
+    padding: 5px 8px;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.fa-github:hover {
+    background-color: #24292e;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.fa-stack-overflow:hover {
+    background-color: #f5974d;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.fa-cog {
+  color: #fff;
+}
+
 
 footer {
 	position: absolute;

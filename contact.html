@@ -10,14 +10,12 @@
 <body>
 
 <header>
-	<div class="header">
-		<h1 id="header">Faisal Mohamed</h2>
-	<div class="nav">
-		<a href="#" class="button">About</a>   |
-		<a href="#" class="button"> Portfolio</a>   |
-		<a href="#" class="button"> Contact</a> 
-	</div>
-	</div>
+<h1 id="header">Faisal Mohamed</h1>
+	<ul class="topnav" id="myTopnav">
+  		<li><a href="#home">About</a></li>
+  		<li><a href="#news">Portfolio</a></li>
+  		<li><a href="#contact">Contact</a></li>
+  	</ul>
 </header>
 <!-- End Header Section -->
 
@@ -25,17 +23,17 @@
 	<div class="main1">
 		<h1>Contact</h1>
 
-		<form action="#">
-			First Name:<br>
-				<input type="text" name="firstname" value="John" maxlength="15" size="40" style="height:20px">
+		<form action="#" class="form">
+			Name:<br>
+				<input type="text" name="fullname" value="John Smith" maxlength="15" size="40" style="height:20px">
 					<br>
-			Last Name:<br>
-				<input type="text" name="lastname" value="Smith" maxlength="30" size="40" style="height:20px">
+			Email:<br>
+				<input type="text" name="email" value="email.123@yahoo.com" maxlength="30" size="40" style="height:20px">
 					<br>
 			Message:<br>
 				<input type="textarea" name="message" value="..." maxlength="200" size="40" style="height:100px;">
 					<br><br>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Submit" id="btn">
 		</form>
 	</div>
 
